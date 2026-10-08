@@ -1,0 +1,12 @@
+# Gatekeeper blocklist: one rule per line. Lines starting with # are comments.
+#
+# "example.com"    blocks exactly example.com (not its subdomains)
+# "*.example.com"  blocks every subdomain (www.example.com, a.b.example.com)
+#                  but NOT example.com itself
+
+facebook.com
+*.facebook.com
+doubleclick.net
+*.doubleclick.net
+ads.example.com
+*.tracker.example.com
